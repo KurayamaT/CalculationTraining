@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this@MainActivity, TestActivity::class.java)
             intent.putExtra("numberOfQuestion", numberOfQuestion)
+            startActivity(intent)
 
 
         }
