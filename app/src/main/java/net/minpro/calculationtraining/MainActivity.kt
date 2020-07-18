@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         spinner.adapter= arrayAdapter
 
         button.setOnClickListener {
-            val numberOfQuestion = spinner.selectedItem.toString().toInt()
+            val numberOfQuestion: Int = spinner.selectedItem.toString().toInt()
 
             val intent = Intent(this@MainActivity, TestActivity::class.java)
             intent.putExtra("numberOfQuestion", numberOfQuestion)

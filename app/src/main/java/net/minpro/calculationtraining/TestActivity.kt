@@ -5,11 +5,12 @@ import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_test.*
+import net.minpro.calculationtraining.R.id.buttonMinus
 import net.minpro.calculationtraining.R.layout.activity_test
 import java.util.*
 
 
-@Suppress("UNREACHABLE_CODE")
+
 class TestActivity : AppCompatActivity(), View.OnClickListener {
 
 
@@ -79,16 +80,15 @@ class TestActivity : AppCompatActivity(), View.OnClickListener {
 
         imageView.visibility = View.INVISIBLE
 
-
-        TODO("Not yet implemented")
     }
 
     private fun answerCheck() {
-        TODO("Not yet implemented")
+
+
+
     }
 
     override fun onClick(v: View?) {
-        TODO("Not yet implemented")
 
         val button: Button = v as Button
 
